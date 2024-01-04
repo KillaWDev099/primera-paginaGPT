@@ -3,49 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
+    <title>Portafolio de [Tu Nombre]</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 20px;
             padding: 20px;
-            background-color: #f4f4f4;
+            background-color: #AEC6CF;
+            color: #333;
         }
 
         header {
             text-align: center;
-            padding: 10px;
-            background-color: #333;
+            padding: 20px;
+            background-color: #CB99C9;
             color: #fff;
         }
 
         section {
-            margin-top: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #FFD1DC;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            header img {
+            width: 450px; /* Ajusta el ancho según sea necesario */
+            height: auto; /* Esto mantiene la proporción original de la imagen */
+            border-radius: 50%;
+        }
         }
 
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #333;
-            color: #fff;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
         }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
     </style>
 </head>
 <body>
     <header>
-        <h1>Mi Página Web</h1>
+        <h1>[Tu Nombre]</h1>
     </header>
 
-    <section>
-        <h2>¡Bienvenido!</h2>
-        <p>Esta es una página web de ejemplo. Puedes personalizarla según tus necesidades.</p>
+    <section id="biografia">
+        <img src="https://images.unsplash.com/photo-1547394765-185e1e68f34e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNvbXB1dGFkb3JhfGVufDB8fDB8fHww" alt="Texto alternativo">
+        <h2>Biografía</h2>
+        <p>Hola, soy [Tu Nombre], un apasionado [Diseñador Gráfico/Desarrollador Front-end/etc.] con experiencia en [tu industria]. Mi enfoque se centra en [lo que te apasiona o tu enfoque principal]. A lo largo de mi carrera, he tenido el privilegio de trabajar en diversos proyectos, desde [proyectos destacados] hasta [otro tipo de proyectos]. Mi experiencia y formación en [tu campo] me han proporcionado las habilidades necesarias para [lo que haces].</p>
+
+        <p>Estoy comprometido con [valores o principios importantes para ti], y me esfuerzo por combinar creatividad y funcionalidad en cada proyecto. Algunas de mis habilidades clave incluyen [lista de habilidades], y estoy siempre buscando oportunidades para aprender y crecer en mi campo.</p>
     </section>
 
-    <footer>
-        <p>&copy; 2024 Mi Página Web</p>
-    </footer>
+    <section id="proyectos">
+        <h2>Proyectos Destacados</h2>
+        <div>
+            <!-- Aquí puedes agregar detalles sobre tus proyectos -->
+            <h3>Proyecto 1</h3>
+            <p>Descripción del Proyecto 1.</p>
+
+            <h3>Proyecto 2</h3>
+            <p>Descripción del Proyecto 2.</p>
+        </div>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <!-- Lista de habilidades -->
+            <li>Diseño gráfico</li>
+            <li>Desarrollo web</li>
+            <li>Experiencia del usuario (UX)</li>
+            <!-- Agrega más habilidades según sea necesario -->
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme a través de [tu correo electrónico] o seguirme en [tus redes sociales]. Estoy disponible para nuevas oportunidades y colaboraciones emocionantes.</p>
+    </section>
 </body>
 </html>
